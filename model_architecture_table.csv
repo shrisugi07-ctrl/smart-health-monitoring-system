@@ -1,0 +1,6 @@
+Step,Description
+Input,"latitude, longitude, is_urban, population_density, age, water_quality_index, ph, turbidity_ntu, dissolved_oxygen_mg_l, bod_mg_l, fecal_coliform_per_100ml, total_coliform_per_100ml, tds_mg_l, nitrate_mg_l, fluoride_mg_l, arsenic_ug_l, open_defecation_rate, toilet_access, sewage_treatment_pct, month, avg_temperature_c, avg_rainfall_mm, avg_humidity_pct, flooding, symptom_diarrhea, symptom_vomiting, symptom_fever, symptom_abdominal_pain, symptom_dehydration, symptom_jaundice, symptom_bloody_stool, symptom_skin_rash, gender_Male, water_source_Open Well, water_source_Piped, water_source_Pond, water_source_Rainwater, water_source_River, water_source_Tanker, water_treatment_Chlorinated, water_treatment_Filtered, water_treatment_Untreated, handwashing_practice_Never, handwashing_practice_Sometimes, season_Post-Monsoon, season_Summer, season_Winter"
+Model,"Random Forest Classifier
+- 80 trees"
+Output,"Predicted Disease Class:
+Cholera, Typhoid, Diarrhea, etc."
